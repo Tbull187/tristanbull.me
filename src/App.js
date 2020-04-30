@@ -11,7 +11,7 @@ function App() {
           <div className="role-text animated fadeInLeft">front end engineer</div>
           <img src={logo} className="App-logo" alt="logo" />
         </div>
-        <p className="animated fadeIn delay-1s">
+        <p className="blurb animated fadeIn delay-1s">
           From scrappy start-ups to big-name tech companies, I use my knowledge of frontend
           development, service-based web architecture, databases, and cloud computing to
           craft simple solutions to complex business problems.
