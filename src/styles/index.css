@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Operator Mono Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Operator Mono Bold'), url('../fonts/OperatorMono-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Operator Mono Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Operator Mono Bold Italic'), url('../fonts/OperatorMono-BoldItalic.woff') format('woff');
+  }
+
+@font-face {
+  font-family: 'Operator Mono Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Operator Mono Book'), url('../fonts/OperatorMono-Book.woff') format('woff');
+}
+
+body {
+  margin: 0;
+  font-family: 'Operator Mono Book';
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
