@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
+import { SkillBar } from './components/SkillBar';
 import './styles/App.css';
+
 
 function App() {
   return (
@@ -39,9 +41,18 @@ function App() {
         </div>
 
       </header>
-      {/* <div className="content">
-
-      </div> */}
+        <div className="content">
+          <div className="skills-container">            
+            <SkillBar skill="HTML" percent="100"/>
+            <SkillBar skill="CSS" percent="100" />
+            <SkillBar skill="JavaScript" percent="100" />
+            <SkillBar skill="React" percent="90" />
+            <SkillBar skill="Node.js" percent="70" />
+            <SkillBar skill="AWS" percent="60" />
+            <SkillBar skill="C#" percent="50" />
+            <SkillBar skill="Test Automation" percent="60" />
+          </div>
+        </div>
     </div>
   );
 }

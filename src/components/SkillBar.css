@@ -1,0 +1,84 @@
+.skill-bar-container {
+    height: 50px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+}
+
+/* animation needs vendor prefixes, webkit, moz, o, etc */
+#skill-bar-100 {
+    width: 100%;
+    animation: Animate-100 4s;
+    height: 50px;
+    position: absolute;
+    background-color: var(--light-blue-color);
+}
+#skill-bar-90 {
+    width: 90%;
+    animation: Animate-90 4s;
+    height: 50px;
+    position: absolute;
+    background-color: var(--light-blue-color);
+}
+#skill-bar-70 {
+    width: 70%;
+    animation: Animate-70 3s;
+    height: 50px;
+    position: absolute;
+    background-color: var(--light-blue-color);
+}
+#skill-bar-60 {
+    width: 60%;
+    animation: Animate-60 3s;
+    height: 50px;
+    position: absolute;
+    background-color: var(--light-blue-color);
+}
+#skill-bar-50 {
+    width: 50%;
+    animation: Animate-50 3s;
+    height: 50px;
+    position: absolute;
+    background-color: var(--light-blue-color);
+}
+
+/* @keyframes declarations need vendor prefixes, webkit,moz,o */
+@keyframes Animate-100 {
+    from { width: 10px; }
+    to { width: 100% }
+}
+@keyframes Animate-90 {
+    from { width: 10px; }
+    to { width: 90% }
+}
+@keyframes Animate-70 {
+    from { width: 10px; }
+    to { width: 70% }
+}
+@keyframes Animate-60 {
+    from { width: 10px; }
+    to { width: 60% }
+}
+@keyframes Animate-50 {
+    from { width: 10px; }
+    to { width: 50% }
+}
+
+.skill-area {
+    z-index: 1;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #fff;
+    font-size: 18px;
+}
+.percent-text {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    margin-top: 15px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    font-size: 18px;
+}

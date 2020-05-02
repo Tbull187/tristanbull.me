@@ -19,6 +19,11 @@
   src: local('Operator Mono Book'), url('../fonts/OperatorMono-Book.woff') format('woff');
 }
 
+:root {
+  --main-bg-color: #282c34;
+  --light-blue-color: #61dafb;
+}
+
 body {
   margin: 0;
   font-family: 'Operator Mono Book';
@@ -30,4 +35,12 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.link:hover {
+  color: var(--light-blue-color);
+}
+
+.italic {
+  font-family: 'Operator Mono Bold Italic';
 }

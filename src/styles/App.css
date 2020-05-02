@@ -14,9 +14,8 @@
 }
 
 .header {
-  background-color: #282c34;
+  background-color: var(--main-bg-color);
   min-height: 100vh;
-  /* min-width: 100vw; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,7 +33,7 @@
 .role-text {
   font-family: 'Operator Mono Bold Italic';
   font-size: calc(40px + 1vmin);
-  color: #61dafb;
+  color: var(--light-blue-color);
   padding-left: 10px;
 }
 
@@ -48,12 +47,17 @@
   padding: 0 1em;
 }
 
-.link:hover {
-  color: #61dafb;
+.content {
+  /* height: 500px; */
+  background-color: var(--main-bg-color);
 }
 
-.italic {
-  font-family: 'Operator Mono Bold Italic';
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+  grid-row-gap: 3em;
+  padding: 1em;
 }
 
 @keyframes App-logo-spin {
@@ -63,10 +67,6 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.italic {
-  font-family: 'Operator Mono Bold Italic';
 }
 
 @media only screen and (max-width: 600px) {
@@ -79,5 +79,7 @@
   .App-logo {
     height: 10vmin;
   }
-
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
 }
