@@ -18,9 +18,9 @@ function App() {
         </p>
 
         <div className="btn-group animated fadeIn delay-1s">
-          <div>
+          <div className="resume-link">
             <a 
-              className="link italic"
+              className="italic"
               href="bull-tristan-resume.pdf"
               download
               >
@@ -29,7 +29,7 @@ function App() {
           </div>
           <div>
             <a 
-              className="link italic" 
+              className="italic" 
               href="mailto:tristan.tbull@gmail.com?subject=Reaching out from tristanbull.me"
               target="_blank"
               rel="noopener noreferrer">
