@@ -1,5 +1,10 @@
 import React from 'react';
+<<<<<<< Updated upstream
 import logo from './logo.svg';
+=======
+import logo from './assets/logo.svg';
+import { SkillBar } from './components/SkillBar';
+>>>>>>> Stashed changes
 import './styles/App.css';
 
 function App() {
